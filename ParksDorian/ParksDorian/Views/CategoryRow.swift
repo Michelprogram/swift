@@ -14,18 +14,19 @@ struct CategoryRow: View {
     
     
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
+            Text(categoryName)
+                .font(.headline)
+                .padding(.leading, 15)
+                .padding(.top, 5)
             ScrollView(.horizontal){
                 HStack{
                     ForEach(items, id: \.id){land in
-                        VStack{
-                            land.image
-                            Text(land.name)
-                        }
+                        CategoryItem(landmark: land)
                     }
                 }
-                .background(Color.orange)
             }
+            .frame(height: 200)
         }
     }
 }
@@ -35,6 +36,6 @@ struct CategoryRow_Previews: PreviewProvider {
     static var landmarks = ModelData().landmarks
     
     static var previews: some View {
-        CategoryRow(categoryName: landmarks[0].category.rawValue, items: Array(landmarks.prefix(3)))
+        CategoryRow(categoryName: landmarks[0].category.rawValue, items: Array(landmarks.prefix(10)))
     }
 }

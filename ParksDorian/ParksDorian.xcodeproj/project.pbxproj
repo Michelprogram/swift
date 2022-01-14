@@ -23,6 +23,7 @@
 		ECD033FB2791AF9F0076545E /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033FA2791AF9F0076545E /* FavoriteButton.swift */; };
 		ECD033FE2791B6380076545E /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033FD2791B6380076545E /* CategoryHome.swift */; };
 		ECD034012791BA170076545E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD034002791BA170076545E /* CategoryRow.swift */; };
+		ECD034042791C5DE0076545E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD034032791C5DE0076545E /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		ECD033FA2791AF9F0076545E /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		ECD033FD2791B6380076545E /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		ECD034002791BA170076545E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		ECD034032791C5DE0076545E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				ECD033FA2791AF9F0076545E /* FavoriteButton.swift */,
 				ECD033FD2791B6380076545E /* CategoryHome.swift */,
 				ECD034002791BA170076545E /* CategoryRow.swift */,
+				ECD034032791C5DE0076545E /* CategoryItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				ECD033F227918B080076545E /* CircleImage2.swift in Sources */,
 				ECD033E127917FEC0076545E /* Landmark.swift in Sources */,
 				ECD033EF279187440076545E /* LandmarkRow.swift in Sources */,
+				ECD034042791C5DE0076545E /* CategoryItem.swift in Sources */,
 				ECD033F827918E9D0076545E /* LandmarkDetail.swift in Sources */,
 				ECD033FB2791AF9F0076545E /* FavoriteButton.swift in Sources */,
 				ECD033E4279182770076545E /* ModelData.swift in Sources */,
