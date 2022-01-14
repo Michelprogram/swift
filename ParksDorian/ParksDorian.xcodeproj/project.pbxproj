@@ -13,6 +13,10 @@
 		ECD033CF2791718D0076545E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD033CE2791718D0076545E /* Preview Assets.xcassets */; };
 		ECD033D8279172C90076545E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033D7279172C90076545E /* CircleImage.swift */; };
 		ECD033DB279175CD0076545E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033DA279175CD0076545E /* MapView.swift */; };
+		ECD033DE27917FA60076545E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD033DD27917FA60076545E /* landmarkData.json */; };
+		ECD033E127917FEC0076545E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033E027917FEC0076545E /* Landmark.swift */; };
+		ECD033E4279182770076545E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033E3279182770076545E /* ModelData.swift */; };
+		ECD033EF279187440076545E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033EE279187440076545E /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ECD033D02791718D0076545E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECD033D7279172C90076545E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		ECD033DA279175CD0076545E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ECD033DD27917FA60076545E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../zip/1_BuildingListsAndNavigation/Resources/landmarkData.json; sourceTree = "<group>"; };
+		ECD033E027917FEC0076545E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		ECD033E3279182770076545E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		ECD033EE279187440076545E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +64,11 @@
 		ECD033C62791718C0076545E /* ParksDorian */ = {
 			isa = PBXGroup;
 			children = (
+				ECD033DD27917FA60076545E /* landmarkData.json */,
 				ECD033C72791718C0076545E /* ParksDorianApp.swift */,
-				ECD033C92791718C0076545E /* ContentView.swift */,
+				ECD033E6279186E60076545E /* Views */,
+				ECD033E82791870F0076545E /* Model */,
 				ECD033CB2791718D0076545E /* Assets.xcassets */,
-				ECD033D7279172C90076545E /* CircleImage.swift */,
-				ECD033DA279175CD0076545E /* MapView.swift */,
 				ECD033D02791718D0076545E /* Info.plist */,
 				ECD033CD2791718D0076545E /* Preview Content */,
 			);
@@ -73,6 +81,26 @@
 				ECD033CE2791718D0076545E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECD033E6279186E60076545E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECD033C92791718C0076545E /* ContentView.swift */,
+				ECD033D7279172C90076545E /* CircleImage.swift */,
+				ECD033DA279175CD0076545E /* MapView.swift */,
+				ECD033EE279187440076545E /* LandmarkRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECD033E82791870F0076545E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECD033E027917FEC0076545E /* Landmark.swift */,
+				ECD033E3279182770076545E /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +162,7 @@
 			files = (
 				ECD033CF2791718D0076545E /* Preview Assets.xcassets in Resources */,
 				ECD033CC2791718D0076545E /* Assets.xcassets in Resources */,
+				ECD033DE27917FA60076545E /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +177,9 @@
 				ECD033DB279175CD0076545E /* MapView.swift in Sources */,
 				ECD033C82791718C0076545E /* ParksDorianApp.swift in Sources */,
 				ECD033D8279172C90076545E /* CircleImage.swift in Sources */,
+				ECD033E127917FEC0076545E /* Landmark.swift in Sources */,
+				ECD033EF279187440076545E /* LandmarkRow.swift in Sources */,
+				ECD033E4279182770076545E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
