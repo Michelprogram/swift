@@ -17,6 +17,9 @@ struct LandmarkRow: View {
             CircleImage2(img: landmark.image)
             Text(landmark.name)
             Spacer()
+            if landmark.isFavorite{
+                Image(systemName: "star.fill")
+            }
         }
         .padding()
     }
@@ -26,8 +29,8 @@ struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         
         Group{
-            LandmarkRow(landmark: landmarks[0])
-            LandmarkRow(landmark: landmarks[1])
+            LandmarkRow(landmark: ModelData().landmarks[0])
+            LandmarkRow(landmark: ModelData().landmarks[1])
                 .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
         }.previewLayout(.fixed(width: 300, height: 100))
         
