@@ -17,6 +17,7 @@
 		ECD033E127917FEC0076545E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033E027917FEC0076545E /* Landmark.swift */; };
 		ECD033E4279182770076545E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033E3279182770076545E /* ModelData.swift */; };
 		ECD033EF279187440076545E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033EE279187440076545E /* LandmarkRow.swift */; };
+		ECD033F227918B080076545E /* CircleImage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033F127918B080076545E /* CircleImage2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ECD033E027917FEC0076545E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		ECD033E3279182770076545E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		ECD033EE279187440076545E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		ECD033F127918B080076545E /* CircleImage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				ECD033C92791718C0076545E /* ContentView.swift */,
 				ECD033D7279172C90076545E /* CircleImage.swift */,
+				ECD033F127918B080076545E /* CircleImage2.swift */,
 				ECD033DA279175CD0076545E /* MapView.swift */,
 				ECD033EE279187440076545E /* LandmarkRow.swift */,
 			);
@@ -177,6 +180,7 @@
 				ECD033DB279175CD0076545E /* MapView.swift in Sources */,
 				ECD033C82791718C0076545E /* ParksDorianApp.swift in Sources */,
 				ECD033D8279172C90076545E /* CircleImage.swift in Sources */,
+				ECD033F227918B080076545E /* CircleImage2.swift in Sources */,
 				ECD033E127917FEC0076545E /* Landmark.swift in Sources */,
 				ECD033EF279187440076545E /* LandmarkRow.swift in Sources */,
 				ECD033E4279182770076545E /* ModelData.swift in Sources */,

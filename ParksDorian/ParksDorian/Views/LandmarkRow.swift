@@ -14,10 +14,11 @@ struct LandmarkRow: View {
     
     var body: some View {
         HStack{
-            landmark.image
+            CircleImage2(img: landmark.image)
             Text(landmark.name)
             Spacer()
         }
+        .padding()
     }
 }
 
