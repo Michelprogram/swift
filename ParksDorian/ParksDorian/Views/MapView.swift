@@ -31,7 +31,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        var myCords = CLLocationCoordinate2D(latitude: 34.011, longitude: -116.166868)
-        MapView(coords: myCords)
+        MapView(coords: landmarks[1].locationCoordinates)
     }
 }
