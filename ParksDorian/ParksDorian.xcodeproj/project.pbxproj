@@ -24,6 +24,9 @@
 		ECD033FE2791B6380076545E /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD033FD2791B6380076545E /* CategoryHome.swift */; };
 		ECD034012791BA170076545E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD034002791BA170076545E /* CategoryRow.swift */; };
 		ECD034042791C5DE0076545E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD034032791C5DE0076545E /* CategoryItem.swift */; };
+		ECD034072791CF310076545E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD034062791CF300076545E /* Profile.swift */; };
+		ECD0340A2791D0C00076545E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD034092791D0C00076545E /* ProfileView.swift */; };
+		ECD0340D2791D45E0076545E /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0340C2791D45E0076545E /* ProfileSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		ECD033FD2791B6380076545E /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		ECD034002791BA170076545E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		ECD034032791C5DE0076545E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		ECD034062791CF300076545E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		ECD034092791D0C00076545E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ECD0340C2791D45E0076545E /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 				ECD033FD2791B6380076545E /* CategoryHome.swift */,
 				ECD034002791BA170076545E /* CategoryRow.swift */,
 				ECD034032791C5DE0076545E /* CategoryItem.swift */,
+				ECD034092791D0C00076545E /* ProfileView.swift */,
+				ECD0340C2791D45E0076545E /* ProfileSummary.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +128,7 @@
 			children = (
 				ECD033E027917FEC0076545E /* Landmark.swift */,
 				ECD033E3279182770076545E /* ModelData.swift */,
+				ECD034062791CF300076545E /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,15 +204,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD033CA2791718C0076545E /* ContentView.swift in Sources */,
+				ECD034072791CF310076545E /* Profile.swift in Sources */,
 				ECD033DB279175CD0076545E /* MapView.swift in Sources */,
 				ECD033C82791718C0076545E /* ParksDorianApp.swift in Sources */,
 				ECD033D8279172C90076545E /* CircleImage.swift in Sources */,
 				ECD033FE2791B6380076545E /* CategoryHome.swift in Sources */,
 				ECD033F527918CC30076545E /* LandMarkList.swift in Sources */,
 				ECD034012791BA170076545E /* CategoryRow.swift in Sources */,
+				ECD0340A2791D0C00076545E /* ProfileView.swift in Sources */,
 				ECD033F227918B080076545E /* CircleImage2.swift in Sources */,
 				ECD033E127917FEC0076545E /* Landmark.swift in Sources */,
 				ECD033EF279187440076545E /* LandmarkRow.swift in Sources */,
+				ECD0340D2791D45E0076545E /* ProfileSummary.swift in Sources */,
 				ECD034042791C5DE0076545E /* CategoryItem.swift in Sources */,
 				ECD033F827918E9D0076545E /* LandmarkDetail.swift in Sources */,
 				ECD033FB2791AF9F0076545E /* FavoriteButton.swift in Sources */,
